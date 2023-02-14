@@ -1,0 +1,39 @@
+// @import '~loaders.css/src/animations/pacman.scss';
+@import 'animate.css';
+
+// .loader-hidden {
+//     display: none;
+//   }
+  
+//   .loader-active {
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     margin: auto;
+//     top: 0;
+//     bottom: 0;
+//     width: 50px;
+//     height: 50px;
+//     animation: fadeOut 1s 1s;
+//     animation-fill-mode: forwards;
+//   }
+
+.App{
+    height: 100vh;
+    width:100%;
+    
+    
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.893);
+}
+.loader-bar{
+    animation: fadeOut 3s 1s forwards;
+}

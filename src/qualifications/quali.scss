@@ -1,0 +1,62 @@
+.quali{
+   
+    background: rgb(233,237,125);
+    background: linear-gradient(110deg, rgba(233,237,125,0.9587185215883228) 8%, rgba(182,246,164,1) 28%, rgb(100, 224, 252) 54%, rgb(36, 131, 247) 98%);
+    padding: 4rem 2rem 2rem 1rem;
+    height: 110%;
+    top:-10rem;
+    position: relative;
+    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+
+
+    h1{
+        font-weight: 900;
+        text-align: center;
+        padding: 1rem;
+        padding-bottom: 0;
+        font-size: 3.5rem;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+}
+.q-img{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.slider{
+    
+   margin: auto;
+    width: 80%;
+    height: auto;
+}
+.awssld__content{
+    background-color: transparent;
+}
+.awssld__next{
+    color: white;
+    background-color: black;
+}
+.content{
+margin: auto;
+text-align: center;
+
+// h2{
+//     padding: 1rem;
+//      padding-bottom: 5px;
+    
+
+// }
+.content-text{
+    padding: 1rem;
+    width:90%;
+    height: auto;
+    margin: auto;
+}
+} 
+.awssld__bullets{
+   position: absolute;
+   bottom: -5%;
+   padding-bottom: 1rem;
+}
+
